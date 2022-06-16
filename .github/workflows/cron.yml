@@ -10,14 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: SpicyPizza/create-envfile@v1.3
+        with:
+          envkey_CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          envkey_CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          envkey_REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
       - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm ci
       - run: |
-          ls -la data
           cat info-schema.json
       - run: node main.js
       - run: |
-          ls -la data
           cat info-schema.json
