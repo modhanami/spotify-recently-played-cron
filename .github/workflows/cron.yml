@@ -26,6 +26,7 @@ jobs:
       - run: node main.js
       - run: |
           git config --global user.name 'EE UR'
+          git add .
           git commit -m "${date}"
           git push
       - run: |
