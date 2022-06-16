@@ -21,6 +21,9 @@ jobs:
       - run: npm ci
       - run: |
           cat info-schema.json
+          cat .env
+          ls -la .
       - run: node main.js
       - run: |
           cat info-schema.json
+          ls -la .
