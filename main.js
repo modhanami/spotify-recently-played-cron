@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import fs from 'fs';
 import { JSONFile, Low } from 'lowdb';
 import fetch from 'node-fetch';
