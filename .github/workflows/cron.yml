@@ -15,9 +15,9 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: |
-          ls -la data
+          find .
           cat info-schema.json
       - run: node main.js
       - run: |
-          ls -la data
+          find .
           cat info-schema.json
