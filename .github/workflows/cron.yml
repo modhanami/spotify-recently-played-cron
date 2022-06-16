@@ -2,8 +2,8 @@ name: Cron
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "0 */2 * * *"
+  schedule:
+    - cron: "0 */2 * * *"
 
 jobs:
   cron:
@@ -20,15 +20,9 @@ jobs:
           node-version: 16
           cache: 'npm'
       - run: npm ci
-      - run: |
-          cat info-schema.json
-          ls -la .
       - run: node main.js
       - run: |
-          git config --global user.name 'EE UR'
+          git config user.name 'look at him go'
           git add .
-          git commit -m "Update data at $(date)"
+          git commit -m "Run cron job"
           git push
-      - run: |
-          cat info-schema.json
-          ls -la .
