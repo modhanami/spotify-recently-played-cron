@@ -1,0 +1,25 @@
+{
+  "name": "spotify-recently-played-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modhanami/spotify-recently-played-cron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modhanami/spotify-recently-played-cron/issues"
+  },
+  "homepage": "https://github.com/modhanami/spotify-recently-played-cron#readme",
+  "dependencies": {
+    "lowdb": "^3.0.0",
+    "node-fetch": "^3.2.6"
+  }
+}
