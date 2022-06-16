@@ -1,0 +1,23 @@
+name: Cron
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm ci
+      - run: |
+          ls -la data
+          cat info-schema.json
+      - run: node main.js
+      - run: |
+          ls -la data
+          cat info-schema.json
