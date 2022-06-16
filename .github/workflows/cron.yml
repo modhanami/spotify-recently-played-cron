@@ -27,7 +27,7 @@ jobs:
       - run: |
           git config --global user.name 'EE UR'
           git add .
-          git commit -m "${date}"
+          git commit -m "Update data at $(date)"
           git push
       - run: |
           cat info-schema.json
