@@ -1,3 +1,4 @@
+import fs from 'fs';
 import { JSONFile, Low } from 'lowdb';
 import fetch from 'node-fetch';
 
@@ -11,6 +12,11 @@ async function main() {
   if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
     console.error('Missing environment variables');
     return process.exit(1);
+  }
+
+  const dataPath = './data';
+  if (!fs.existsSync(dataPath)) {
+    fs.mkdirSync(dataPath);
   }
 
   const infoSchemafileAdapter = new JSONFile('./info-schema.json');
