@@ -25,5 +25,9 @@ jobs:
           ls -la .
       - run: node main.js
       - run: |
+          git config --global user.name 'EE UR'
+          git commit -m "${date}"
+          git push
+      - run: |
           cat info-schema.json
           ls -la .
