@@ -22,7 +22,9 @@ jobs:
       - run: npm ci
       - run: node main.js
       - run: |
-          git config user.name 'look at him go'
-          git add .
-          git commit -m "Run cron job on $(date -Iminutes)"
-          git push
+          if ! git diff-head --quiet HEAD --; then
+            git config user.name 'look at him go'
+            git add .
+            git commit -m "Run cron job on $(date -Iminutes)"
+            git push
+          fi
