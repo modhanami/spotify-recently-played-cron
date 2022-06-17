@@ -29,6 +29,11 @@ async function main() {
   const cursorAfter = infoSchemaDB.data.cursor.after;
   const data = await getRecentlyPlayedTracks(accessToken, 50, cursorAfter);
 
+  if (data.items.length === 0) {
+    console.log('No new tracks found');
+    return process.exit(0);
+  }
+
   const newCursorAfter = data.cursors.after;
   console.log(`previous cursor: ${cursorAfter}`);
   console.log(`new cursor: ${newCursorAfter}`);
