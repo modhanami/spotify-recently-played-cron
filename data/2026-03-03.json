@@ -3219,6 +3219,172 @@
         },
         "uri": "spotify:album:6NAVjN9K8zfhSSXHMnGdcn"
       }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0WwjT0WO2JQSXIq7EeDxXf"
+              },
+              "href": "https://api.spotify.com/v1/artists/0WwjT0WO2JQSXIq7EeDxXf",
+              "id": "0WwjT0WO2JQSXIq7EeDxXf",
+              "name": "Lucid Express",
+              "type": "artist",
+              "uri": "spotify:artist:0WwjT0WO2JQSXIq7EeDxXf"
+            }
+          ],
+          "available_markets": [
+            "AM",
+            "AZ",
+            "BD",
+            "BN",
+            "BT",
+            "CO",
+            "DE",
+            "FJ",
+            "FM",
+            "HK",
+            "ID",
+            "IN",
+            "KG",
+            "KH",
+            "KI",
+            "KZ",
+            "LA",
+            "LK",
+            "MN",
+            "MO",
+            "MV",
+            "MY",
+            "NP",
+            "NR",
+            "PG",
+            "PH",
+            "PK",
+            "PW",
+            "SG",
+            "TG",
+            "TH",
+            "TJ",
+            "TV",
+            "TW",
+            "UZ",
+            "VN",
+            "VU",
+            "WS"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/39JGZEMyeqrlNiGF1hlQVt"
+          },
+          "href": "https://api.spotify.com/v1/albums/39JGZEMyeqrlNiGF1hlQVt",
+          "id": "39JGZEMyeqrlNiGF1hlQVt",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2732d240e8c1dce987e6271ae26",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e022d240e8c1dce987e6271ae26",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048512d240e8c1dce987e6271ae26",
+              "width": 64
+            }
+          ],
+          "name": "Instant Comfort",
+          "release_date": "2026-02-20",
+          "release_date_precision": "day",
+          "total_tracks": 9,
+          "type": "album",
+          "uri": "spotify:album:39JGZEMyeqrlNiGF1hlQVt"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0WwjT0WO2JQSXIq7EeDxXf"
+            },
+            "href": "https://api.spotify.com/v1/artists/0WwjT0WO2JQSXIq7EeDxXf",
+            "id": "0WwjT0WO2JQSXIq7EeDxXf",
+            "name": "Lucid Express",
+            "type": "artist",
+            "uri": "spotify:artist:0WwjT0WO2JQSXIq7EeDxXf"
+          }
+        ],
+        "available_markets": [
+          "AM",
+          "AZ",
+          "BD",
+          "BN",
+          "BT",
+          "CO",
+          "DE",
+          "FJ",
+          "FM",
+          "HK",
+          "ID",
+          "IN",
+          "KG",
+          "KH",
+          "KI",
+          "KZ",
+          "LA",
+          "LK",
+          "MN",
+          "MO",
+          "MV",
+          "MY",
+          "NP",
+          "NR",
+          "PG",
+          "PH",
+          "PK",
+          "PW",
+          "SG",
+          "TG",
+          "TH",
+          "TJ",
+          "TV",
+          "TW",
+          "UZ",
+          "VN",
+          "VU",
+          "WS"
+        ],
+        "disc_number": 1,
+        "duration_ms": 216979,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "US28E2639002"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6MmzVbXImCAKwULRAbQ3ED"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6MmzVbXImCAKwULRAbQ3ED",
+        "id": "6MmzVbXImCAKwULRAbQ3ED",
+        "is_local": false,
+        "name": "Take Heart",
+        "popularity": 22,
+        "preview_url": null,
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:6MmzVbXImCAKwULRAbQ3ED"
+      },
+      "played_at": "2026-03-03T15:35:06.092Z",
+      "context": {
+        "type": "album",
+        "href": "https://api.spotify.com/v1/albums/6NAVjN9K8zfhSSXHMnGdcn",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6NAVjN9K8zfhSSXHMnGdcn"
+        },
+        "uri": "spotify:album:6NAVjN9K8zfhSSXHMnGdcn"
+      }
     }
   ]
 }
